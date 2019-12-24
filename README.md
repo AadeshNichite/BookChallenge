@@ -13,7 +13,14 @@ BookStore Application
 
 ## Technology Used:
 
-Reactjs, CSS, JavaScript(ES6), Nodejs, expressjs, Bootstrap, Axois,MongoDB
+Reactjs
+CSS 
+JavaScript(ES6)
+Nodejs
+expressjs
+Bootstrap
+Axois
+MongoDB
 
 ## Assumptions:
 
