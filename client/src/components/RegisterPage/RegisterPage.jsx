@@ -54,6 +54,8 @@ class RegisterPage extends Component {
                 });
             }
         render() {
+
+        // checking whether a book is uploaded or not using flag
         if(this.state.flag)
         {
             alert("Book Uploaded in database");

@@ -2,10 +2,9 @@ const express = require('express');
 const router = express.Router();
 const Profile = require('../../models/bookProfile');
 
-//@route    GET api/Books profile
+//@route    GET api/ 
 //@desc     Get books list from database
-//@access   Private
-
+//@access   Public
 router.get('/', async (req,res) => {
     try{
         const profile = await Profile.find();
@@ -24,13 +23,13 @@ router.get('/', async (req,res) => {
 
 
 //@route    POST api/profile
-//@desc     Create and Update Book profile
-//@access   Private
+//@desc     Create Book profile
+//@access   Public
 router.post(
     '/',
     async (req,res)=>{
         const {
-            
+
             author,
             bookname,
             description,
@@ -43,7 +42,7 @@ router.post(
 
         if(author)bookProfileField.author = req.body.author;
 
-        //Build A profile history Object
+        //Build A history Object of perticular book
         bookProfileField.bookinfo={}
 
         if(bookname) bookProfileField.bookinfo.bookname = req.body.bookname;
@@ -80,7 +79,7 @@ router.post(
 
 
 //@route    GET api/profile/profile/:bookname
-//@desc     Get  profile by user_id 
+//@desc     Get  Book profile by bookname 
 //@access   Public
 router.get('/profile/:bookname',async (req,res) =>{
     try{

@@ -33,11 +33,12 @@ class LoginPage extends Component{
         return (
 
         <div>
+            {/* when page load It will show a data which is present in database */}
             <div onLoad={this.showdata}>
 
             <div className="MainDivUserDashBoard">
 
-                <div><button onClick={this.showdata}>show</button></div>
+                <div><button onClick={this.showdata} className="button">show</button></div>
                 {/* <div>{this.state.data}</div> */}
                 {/* {this.state.data.map(i=>{
                     return(
@@ -46,16 +47,20 @@ class LoginPage extends Component{
                 })} */}
                 </div>
             </div>
+
             <form onSubmit={this.submitForm} className="MainDiv">
+
                 <h1 className="head text-center">Book Shop</h1>
                 <p id="bookName">The Greate Indian</p>
                 <p id="author">Raja</p>
                 <p id="description">History related book</p>
                 <p id="rating">4/5</p>
                 <input type="text" className="dataRegister" id="findBook" name="findBook" placeholder="Enter Book Name to find" onChange={this.handleChange} />
-                <Link to='/register' className="register">Add Book</Link>
-                <button type="submit" className="button">submit</button>
+                <button type="submit" className="button" >Search</button>
+                <Link to='/register' className="register">Add New Book</Link>
+
             </form>
+
         </div>
      )
     }
