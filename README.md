@@ -38,7 +38,7 @@ Step 3: After completing installation of node modules, Type next command npm ser
 
 ## Problem Facing:
 
-I have completed this with addition of new book with information into the database from frontend. But I am able showed the data which is present in database in console only. I was trying to map the console data but it will go wrong syntacticaly. 
+I have completed this with addition of new book with information into the database from frontend. But I am able showed the data which is present in database in console only. I was trying to map the console data but it will go wrong syntacticaly. Also I have created a api for updatation of profile.
 
 ## Objective:
 
