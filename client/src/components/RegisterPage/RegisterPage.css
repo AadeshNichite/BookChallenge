@@ -1,0 +1,45 @@
+/* Author:- Aadesh Nichite */
+
+:root{
+    --primary-color:#ECEFF1;
+    --secondary-color: #78909C; 
+    --third-color: #37474F;
+ }
+.MainDivRegister
+{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.buttonRegister
+{
+    background-color: var(--secondary-color) ;
+    padding: 5px;
+    color: var(--primary-color);
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    margin: 5px;
+    outline: none;
+    border : 1px solid var(--secondary-color);
+}
+.dataRegister
+{
+    border : 1px solid var(--secondary-color);
+    padding: 5px;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    outline: none;
+    font-size: medium;
+    margin: 10px;
+}
+.headRegister
+{
+    color: var(--third-color);
+    font-size: x-large;
+}
