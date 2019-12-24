@@ -17,9 +17,9 @@ Reactjs, CSS, JavaScript(ES6), Nodejs, expressjs, Bootstrap, Axois,MongoDB
 
 ## Assumptions:
 
-1. At the opening of the project , It will show static data.
+1.At the opening of the project , It will show static data.
 
-2. On the click of show button it will show the data is in console. Mapping is not working correctly so I put in console only.
+2.On the click of show button it will show the data is in console. Mapping is not working correctly so I put in console only.
 
 ## Installation:
 
