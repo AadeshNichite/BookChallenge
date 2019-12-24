@@ -36,6 +36,10 @@ Step 2: Open the project folder in your IDE and terminal. Type the command npm i
 
 Step 3: After completing installation of node modules, Type next command npm server.js for server side and npm start for client side.             The application will run in the development mode.
 
+## Problem Facing:
+
+I have completed this with addition of new book with information. But I am able showed the data which is present in database in console only. I was trying to map the console data but it will go wrong syntacticaly. 
+
 ## Objective:
 
 To create a book store application. 
