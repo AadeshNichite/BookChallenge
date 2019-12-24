@@ -1,6 +1,6 @@
 # BookChallenge
 
-BookStore Application
+BookStore Application to show the books and find the book using book name and adding the new information of book.
 
 ## Application Name
 
